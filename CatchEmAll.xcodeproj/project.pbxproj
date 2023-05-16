@@ -11,6 +11,10 @@
 		033551022A1290F000410916 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033551012A1290F000410916 /* CreaturesListView.swift */; };
 		033551042A1290F100410916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033551032A1290F100410916 /* Assets.xcassets */; };
 		033551072A1290F100410916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033551062A1290F100410916 /* Preview Assets.xcassets */; };
+		0335510F2A13D53D00410916 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335510E2A13D53D00410916 /* CreaturesViewModel.swift */; };
+		033551112A14108000410916 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033551102A14108000410916 /* DetailView.swift */; };
+		033551132A14241300410916 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033551122A14241300410916 /* Creature.swift */; };
+		033551152A14289B00410916 /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033551142A14289B00410916 /* CreatureDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		033551032A1290F100410916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033551062A1290F100410916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0335510D2A12A5C600410916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0335510E2A13D53D00410916 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		033551102A14108000410916 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		033551122A14241300410916 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		033551142A14289B00410916 /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,11 @@
 			children = (
 				0335510D2A12A5C600410916 /* Info.plist */,
 				033550FF2A1290F000410916 /* CatchEmAllApp.swift */,
+				033551122A14241300410916 /* Creature.swift */,
+				0335510E2A13D53D00410916 /* CreaturesViewModel.swift */,
+				033551142A14289B00410916 /* CreatureDetailViewModel.swift */,
 				033551012A1290F000410916 /* CreaturesListView.swift */,
+				033551102A14108000410916 /* DetailView.swift */,
 				033551032A1290F100410916 /* Assets.xcassets */,
 				033551052A1290F100410916 /* Preview Content */,
 			);
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0335510F2A13D53D00410916 /* CreaturesViewModel.swift in Sources */,
+				033551112A14108000410916 /* DetailView.swift in Sources */,
 				033551022A1290F000410916 /* CreaturesListView.swift in Sources */,
+				033551132A14241300410916 /* Creature.swift in Sources */,
+				033551152A14289B00410916 /* CreatureDetailViewModel.swift in Sources */,
 				033551002A1290F000410916 /* CatchEmAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
